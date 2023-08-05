@@ -1,0 +1,14 @@
+section{
+    background-color: black;
+}
+div{
+    display: inline-block;
+    color: white;
+    font: bold 20px sans sarif;
+    padding: 20px;
+}
+
+#logo{
+    margin: 0% 10% 0% 5%;
+    padding: 20px;
+}
