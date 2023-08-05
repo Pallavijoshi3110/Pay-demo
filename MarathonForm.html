@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marathon Registration Form</title>
+    <style>
+body{
+    margin: 0% 20% 0% 10%;
+    background-color: azure;
+    padding: 0% 10% 10% 10%;
+    
+}
+#head{
+    text-align: center;
+    font-style: oblique;
+}
+#image{
+    border-width: 1cm;
+     border-style: double;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+    
+}
+#form{
+    text-align: center;
+    border: 0.5cm;
+    border-color: rgb(205, 152, 248);
+    border-radius: 5%;
+    background-color: rgb(231, 193, 193);
+    border-style: dashed;
+    padding: 5%;
+}
+
+    </style>
+</head>
+<body>
+    <h1 id="head">Marathon Registration Form</h1><br>
+    <img src="https://static.vecteezy.com/system/resources/previews/011/482/477/original/running-and-marathon-logo-design-running-man-symbol-free-vector.jpg" alt="" id="image">
+    <br>
+    <form action="/RegistrationSuccessful" id="form">
+
+<div>
+    <label for="Fname">First Name</label>
+    <input type="text" id="Fname" name="Firstname" placeholder="Enter First Name" required>
+</div>
+<br>
+<div>
+    <label for="Lname">Last Name</label>
+    <input type="text" id="Lname" name="Lastname" placeholder="Enter Last Name" required>
+</div>
+<br>
+Select a Race <br><br>
+<div>
+    <label for="radio1">Fun Run 5K</label>
+    <input type="radio" name="Race" id="radio1" value="Fun run 5K"><br>
+    </div>
+    <div>
+    <label for="radio2">Half Marathon</label>
+    <input type="radio" name="Race" id="radio2" value="Half Marathon"><br>
+    </div>
+    <div>
+    <label for="radio3">Full Marathon</label>
+    <input type="radio" name="Race" id="radio3" value="Full Marathon"><br>
+</div>
+<br>
+<div>
+    <label for="email">Email</label>
+    <input type="email" name="email" id="email">
+</div>
+<br>
+<div>
+    <label for="password">Password</label>
+    <input type="password" name="password" id="password">
+</div>
+<br>
+<div>
+    <label for="agegroup">Select Age Group</label>
+<select name="agegroup" id="age">
+    <option value="under 18">Under 18</option>
+    <option value="18-50">18-50</option>
+    <option value="above 18">above 50</option>
+</select>
+</div>
+<br>
+<button type="Register" value="Register">Register</button>
+    </form>
+    
+</body>
+</html>
